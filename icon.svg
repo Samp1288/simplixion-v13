@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Simplixion</title>
+  <desc id="desc">Monogramme S tridimensionnel bleu pâle, symbole d’organisation et d’optimisation</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f2b4a"/><stop offset=".55" stop-color="#1f5f8e"/><stop offset="1" stop-color="#143b63"/></linearGradient>
+    <linearGradient id="sFace" x1=".1" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#e8f8ff"/><stop offset=".38" stop-color="#b9e3f6"/><stop offset=".72" stop-color="#72b9e0"/><stop offset="1" stop-color="#4a92c1"/></linearGradient>
+    <linearGradient id="sEdge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3f84b3"/><stop offset="1" stop-color="#1d527f"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#071a2e" flood-opacity=".45"/></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="18"/></filter>
+    <clipPath id="round"><rect width="512" height="512" rx="126"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="126" fill="url(#background)"/>
+  <g clip-path="url(#round)">
+    <circle cx="85" cy="72" r="150" fill="#73c5ec" opacity=".15" filter="url(#soft)"/>
+    <circle cx="427" cy="444" r="160" fill="#061a30" opacity=".2" filter="url(#soft)"/>
+    <path d="M96 390h320" stroke="#c8ecff" stroke-opacity=".16" stroke-width="3"/>
+    <path d="M120 352 184 299l53 24 70-80 74-66" fill="none" stroke="#bfe8fa" stroke-opacity=".22" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M362 166h32v32" fill="none" stroke="#d8f4ff" stroke-opacity=".55" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <g filter="url(#shadow)">
+      <path d="M367 118c-31-27-77-40-133-40-77 0-135 37-135 93 0 48 37 70 108 91l48 14c40 12 57 22 57 43 0 23-28 39-70 39-47 0-89-17-121-48l-43 60c42 39 96 59 164 59 90 0 151-44 151-113 0-56-36-84-111-107l-47-14c-37-11-55-20-55-38 0-20 25-34 65-34 37 0 70 12 96 34z" transform="translate(10 17)" fill="url(#sEdge)" opacity=".95"/>
+      <path d="M367 118c-31-27-77-40-133-40-77 0-135 37-135 93 0 48 37 70 108 91l48 14c40 12 57 22 57 43 0 23-28 39-70 39-47 0-89-17-121-48l-43 60c42 39 96 59 164 59 90 0 151-44 151-113 0-56-36-84-111-107l-47-14c-37-11-55-20-55-38 0-20 25-34 65-34 37 0 70 12 96 34z" fill="url(#sFace)"/>
+      <path d="M105 324c37 29 77 42 126 42 54 0 91-20 91-47 0-19-18-29-57-41l-48-14c-71-21-108-43-108-91 0-17 5-33 14-47-16 16-24 33-24 53 0 48 37 70 108 91l48 14c40 12 57 22 57 43 0 23-28 39-70 39-47 0-89-17-121-48z" fill="#ffffff" opacity=".22"/>
+      <path d="M143 164c17-28 52-44 97-44 44 0 82 11 111 32l16-34c-31-27-77-40-133-40-55 0-98 18-122 48z" fill="#ffffff" opacity=".28"/>
+    </g>
+    <circle cx="402" cy="100" r="6" fill="#dff7ff"/><circle cx="426" cy="124" r="4" fill="#9bd9f4"/>
+  </g>
+</svg>

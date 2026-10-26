@@ -1,0 +1,12 @@
+{
+  "name": "Simplixion",
+  "short_name": "Simplixion",
+  "description": "Gestion d’entreprise, comptabilité, projets et soumissions.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5f9fd",
+  "theme_color": "#183b63",
+  "lang": "fr-CA",
+  "orientation": "portrait-primary",
+  "icons": [{"src":"icon-simplixion.png?v=13","sizes":"1254x1254","type":"image/png","purpose":"any maskable"}]
+}
