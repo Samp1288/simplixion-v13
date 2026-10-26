@@ -42,7 +42,7 @@ Le fonctionnement recommandé est : Simplixion sert de registre principal; « Ex
 5. Clique **Save and Deploy**.
 6. Après chaque nouvelle modification, envoie les fichiers sur GitHub; Cloudflare redéploie automatiquement.
 
-Le service worker utilise le cache `simplixion-v13-static`. Si un ancien écran reste affiché, recharge la page; si nécessaire, ouvre l’application en navigation privée ou vide les données du site une seule fois.
+Le service worker utilise le cache `simplixion-v14-static`. Si un ancien écran reste affiché, recharge la page; si nécessaire, ouvre l’application en navigation privée ou vide les données du site une seule fois.
 
 ## Données et synchronisation
 
