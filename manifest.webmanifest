@@ -8,5 +8,5 @@
   "theme_color": "#183b63",
   "lang": "fr-CA",
   "orientation": "portrait-primary",
-  "icons": [{"src":"icon-simplixion.png?v=15","sizes":"1254x1254","type":"image/png","purpose":"any maskable"}]
+  "icons": [{"src":"icon-simplixion.png?v=16","sizes":"1254x1254","type":"image/png","purpose":"any maskable"}]
 }

@@ -1,0 +1,13 @@
+name = "simplixion-sync"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "simplixion-sync"
+database_id = "REMPLACER_PAR_L_ID_D1"
+
+[vars]
+# Pour un premier déploiement, l’API accepte les requêtes cross-origin.
+# Après avoir déployé Pages, tu peux ajouter ALLOWED_ORIGIN = "https://ton-projet.pages.dev".
+ALLOWED_ORIGIN = "*"

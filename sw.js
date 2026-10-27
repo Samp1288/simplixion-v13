@@ -1,5 +1,5 @@
-const CACHE_NAME = "simplixion-v15-static";
-const APP_SHELL = ["./", "./index.html", "./styles.css?v=15", "./app.js?v=15", "./excel.js?v=15", "./config.js?v=15", "./manifest.webmanifest", "./icon-simplixion.png?v=15"];
+const CACHE_NAME = "simplixion-v16-static";
+const APP_SHELL = ["./", "./index.html", "./styles.css?v=16", "./app.js?v=16", "./excel.js?v=16", "./config.js?v=16", "./manifest.webmanifest", "./icon-simplixion.png?v=16"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
